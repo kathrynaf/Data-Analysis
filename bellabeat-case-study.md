@@ -189,7 +189,7 @@ We found this by averaging the sleep minutes and time in bed for each
 user and concatenating this with the activity sheet by Id number. The
 resulting correlation plot was the following:
 
-![](bellabeat-case-study_files/figure-gfm/activity_sleep%20corelation%20plot-1.png)<!-- -->
+![image](https://github.com/kathrynaf/Data-Analysis/blob/b444f037c1f8d6efdfbc253d8e59cdfa04a8f7ee/activity_sleep%20corelation%20plot-1.png)
 
 Although there is a very slight negative correlation, these numbers were
 not statistically significant–essentially, no relationship exists.
@@ -300,7 +300,7 @@ heartrateMatrix <- cor(heartrate_merge, method="pearson")
 heartratePlot <- corrplot(heartrateMatrix,type="upper",order="original",tl.col="black",tl.srt=45)
 ```
 
-![](bellabeat-case-study_files/figure-gfm/Heart%20Rate%20Correlation-1.png)<!-- -->
+![image](https://github.com/kathrynaf/Data-Analysis/blob/b444f037c1f8d6efdfbc253d8e59cdfa04a8f7ee/Heart%20Rate%20Correlation-1.png)
 
 Much like with the correlations between activity rate and calories
 burned, the strongest correlation between activity and resting heart
@@ -326,7 +326,9 @@ plot, and a gap statistic.
 
     ## Welcome! Want to learn more? See two factoextra-related books at https://goo.gl/ve3WBa
 
-![](bellabeat-case-study_files/figure-gfm/K%20Cluster%20Plot-1.png)<!-- -->![](bellabeat-case-study_files/figure-gfm/K%20Cluster%20Plot-2.png)<!-- -->![](bellabeat-case-study_files/figure-gfm/K%20Cluster%20Plot-3.png)<!-- -->
+![image](https://github.com/kathrynaf/Data-Analysis/blob/b444f037c1f8d6efdfbc253d8e59cdfa04a8f7ee/K%20Cluster%20Plot-1.png)
+![image](https://github.com/kathrynaf/Data-Analysis/blob/b444f037c1f8d6efdfbc253d8e59cdfa04a8f7ee/K%20Cluster%20Plot-2.png)
+![image](https://github.com/kathrynaf/Data-Analysis/blob/b444f037c1f8d6efdfbc253d8e59cdfa04a8f7ee/K%20Cluster%20Plot-3.png)
 
 As can be seen above, sometimes these measures do not agree, so best
 judgement must be used. In this instance, splitting the difference
@@ -368,7 +370,7 @@ print(final)
     ## [1] "cluster"      "centers"      "totss"        "withinss"     "tot.withinss"
     ## [6] "betweenss"    "size"         "iter"         "ifault"
 
-![](bellabeat-case-study_files/figure-gfm/K%20Means%20Cluster%20Plot-1.png)<!-- -->
+![image](https://github.com/kathrynaf/Data-Analysis/blob/b444f037c1f8d6efdfbc253d8e59cdfa04a8f7ee/K%20Means%20Cluster%20Plot-1.png)
 
 ## Types of smart device users
 
