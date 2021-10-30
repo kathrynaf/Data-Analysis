@@ -148,7 +148,7 @@ library(corrplot)
 ``` r
 corrplot(activityCorrs,type="upper",order="original",tl.col="black",tl.srt=45)
 
-```https://github.com/kathrynaf/Data-Analysis/blob/13c2ea313965f172e9662e6d4674bfdfffd2bd19/correlation_plot_2-1.png
+```
 
 Obviously there are strong correlations between steps and distance
 (.98), as they essentially measure the same thing. There are also strong
